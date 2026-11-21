@@ -1,0 +1,7 @@
+# TVBox 开车涩涩
+# 来源：https://526900.pages.dev/p/Sb3e96Z0 / https://tvbox.shenzjd.com/
+# 更新时间：2026-11-21 15:37:40（每天自动更新）
+# 本次可用：1 个（两站合计 1 个，全死的没列进来）
+# 格式：名称,接口地址（直接粘贴到 TVBox 里用）
+
+爱豆直播,https://yl.sb110.kdns.fr/live.m3u
