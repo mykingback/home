@@ -21,6 +21,59 @@ jobs:
         run: pip install requests
       - name: 抓取并整理接口
         run: python tvbox/crawl.py --out tvbox
+      - name: 上传到 KV（私有订阅用）
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+
+          token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
+          if not token:
+              print("未设置 CLOUDFLARE_API_TOKEN，跳过 KV 上传（仓库 Secrets 里加了就会自动传）")
+              raise SystemExit(0)
+
+          def api(method, path, data=None, ctype="application/json"):
+              req = urllib.request.Request(
+                  "https://api.cloudflare.com/client/v4" + path,
+                  data=data,
+                  method=method,
+                  headers={"Authorization": f"Bearer {token}",
+                           "Content-Type": ctype})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      return json.load(r)
+              except urllib.error.HTTPError as e:
+                  print(f"Cloudflare API {method} {path} 失败：HTTP {e.code} {e.read()[:200]!r}")
+                  raise SystemExit(1)
+
+          # 账号 ID 从 token 查，不用单独贴
+          accounts = api("GET", "/accounts").get("result", [])
+          if not accounts:
+              print("这个 token 下没有账号，跳过 KV 上传")
+              raise SystemExit(0)
+          account_id = accounts[0]["id"]
+
+          # 按标题找 KV 命名空间（部署 Worker 时建的，标题 tvbox）
+          namespaces = api("GET", f"/accounts/{account_id}/storage/kv/namespaces").get("result", [])
+          ns = next((n for n in namespaces if n.get("title") == "tvbox"), None)
+          if not ns:
+              print("没找到标题为 tvbox 的 KV 命名空间，跳过上传")
+              raise SystemExit(0)
+          namespace_id = ns["id"]
+
+          for name in ["vod.txt", "live.txt", "adult.txt", "interfaces.json", "README.md"]:
+              path = f"tvbox/{name}"
+              if not os.path.exists(path):
+                  print(f"跳过 {name}：文件不存在")
+                  continue
+              with open(path, "rb") as f:
+                  data = f.read()
+              res = api("PUT",
+                        f"/accounts/{account_id}/storage/kv/namespaces/{namespace_id}/values/{name}",
+                        data=data, ctype="text/plain; charset=utf-8")
+              print(f"{name}：{'已上传' if res.get('success') else '失败 ' + str(res)[:200]}")
+          PY
       - name: 有变化就提交
         run: |
           git config user.name "github-actions[bot]"
