@@ -1,0 +1,44 @@
+# TVBox 点播接口
+# 来源：https://526900.pages.dev/p/Sb3e96Z0
+# 更新时间：2026-11-21 09:39:50（每天自动更新）
+# 本次可用：38 个（源站共 40 个，全死的没列进来）
+# 格式：名称,接口地址（直接粘贴到 TVBox 里用）
+
+嗷呜,https://0.wudaozhe.net/tvbox/嗷呜.json
+X4菠菜园,https://0.wudaozhe.net/5/x4.json
+宝盒,https://0.wudaozhe.net/tvbox/宝盒.json
+嗷呜3线,https://0.wudaozhe.net/tvbox/嗷呜3线.json
+嗨哥魔改,https://api.hgyx.vip/hgyx.json
+X4少儿频道,https://0.wudaozhe.net/5/tv少儿.json
+饭太硬,https://0.wudaozhe.net/tvbox/饭太硬.json
+摸鱼,https://0.wudaozhe.net/tvbox/摸鱼.json
+王二小,https://9280.kstore.vip/aiwex.json
+潇洒,https://0.wudaozhe.net/tvbox/潇洒.json
+幸福年年,http://150.158.52.248/tgyg/bbm.json
+饭太硬2线,https://0.wudaozhe.net/tvbox/饭太硬2线.json
+饭太硬3线,https://0.wudaozhe.net/tvbox/饭太硬3线.json
+饭太硬5线,https://0.wudaozhe.net/tvbox/饭太硬5线.json
+饭太硬6线,https://0.wudaozhe.net/tvbox/饭太硬6线.json
+嗷呜2线,https://9763.kstore.vip/aowu.json
+南风,https://0.wudaozhe.net/tvbox/南风.json
+南风2线,https://0.wudaozhe.net/tvbox/南风2线.json
+小马,https://szyyds.cn/tv/x.json
+周J,https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box
+菜妮丝,https://0.wudaozhe.net/tvbox/菜妮丝.json
+心魔,https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json
+俊宇,http://home.jundie.top:81/top98.json
+clun,https://clun.top/box.json
+东篱,https://0.wudaozhe.net/tvbox/东篱.json
+聚玩,http://xhztv.top/xhz
+哈吉米,https://17264.kstore.space/哈基米.png
+动漫,https://www.yingm.cc/dm/dm.json
+天神,https://0.wudaozhe.net/tvbox/天神.json
+星微Vip,https://7337.kstore.vip/xw/测试勿传
+传说,https://0.wudaozhe.net/tvbox/传说.json
+夏夏影视,https://11405.kstore.space/xiaye/qk4k.json
+摸鱼3线,https://0.wudaozhe.net/tvbox/摸鱼3线.json
+健康家用,https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json
+FongMI线路,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json
+高天流云js,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
+凯弟1线,https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
+分享者,http://hucongrong.web3v.work/风水/fxz/fxz.json
