@@ -1,7 +1,7 @@
 # TVBox 直播接口
 # 来源：https://526900.pages.dev/p/Sb3e96Z0 / https://tvbox.shenzjd.com/
-# 更新时间：2026-11-21 15:37:40（每天自动更新）
-# 本次可用：105 个（两站合计 117 个，全死的没列进来）
+# 更新时间：2026-11-21 07:59:25（每天自动更新）
+# 本次可用：104 个（两站合计 117 个，全死的没列进来）
 # 格式：名称,接口地址（直接粘贴到 TVBox 里用）
 
 山东电信,https://eastscreen.tv/iptvlist.php?token=LlNDBR0AAwweAwkOVFNLAwkGBgAI
@@ -65,7 +65,7 @@ FMMIPV6,https://m3u.ibert.me/txt/fmml_ipv6.txt
 iptv直播,https://wget.la/https://raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt
 咪咕直播,http://139.224.44.53:1234
 有效期27年7月.php,http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512
-juli,https://files.catbox.moe/h3mb5a.txt（未验证）
+juli,https://files.catbox.moe/h3mb5a.txt
 手动不知何时更新,https://szyyds.cn/tv/live/x.txt
 斗鱼一起看,https://sub.ottiptv.cc/douyuyqk.m3u
 虎牙一起看,https://sub.ottiptv.cc/huyayqk.m3u
@@ -73,7 +73,6 @@ B站直播,https://sub.ottiptv.cc/bililive.m3u
 YY轮播,https://sub.ottiptv.cc/yylunbo.m3u
 韩国Panda直播,https://jsnzkpg4.pages.dev/https://xiongmao.caonizuzong.indevs.in/all.m3u
 乌拉TV直播,https://ilook.epg.one/5CM5SY98BF24PL/2
-地方台直播,https://sd.shandong.bbroot.com/xk/zb.txt
 经典电视剧,https://wp.kayyw.com/f/XOpgIZ/%E7%BB%8F%E5%85%B8%E7%94%B5%E8%A7%86%E5%89%A7.txt
 YY轮播2线,https://ztha.top/TVBox/lib/yylunbo.m3u
 范明明需开启V6网络,https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u
@@ -108,4 +107,4 @@ Guovin,https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 cluntoptest,https://clun.top/lib/iptv_test.m3u
 黄蚂蚁先锋推流源,http://ge.html-5.me//ii/黄蚂蚁先锋推流源.txt
 澜露TV,http://zoto.3d.tc/i/i/hulanlu.txt
-咪咕TV直播.php,https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA（未验证）
+咪咕TV直播.php,https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA
