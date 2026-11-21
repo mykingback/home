@@ -12,7 +12,8 @@ TVBox 接口每日整理（双源）
      同名的新地址并入该接口的镜像列表
   3. 对每个接口的多个镜像地址逐个测活（HTTP 200 + 有效 TVBox 配置/M3U/TXT）
   4. 每个接口选第一个可用的镜像作为首选地址，按名称、分类整理输出
-  5. 输出：vod.txt / live.txt / interfaces.json / README.md
+  5. 输出：vod.txt / live.txt / adult.txt（开车涩涩，手动追加的地址）/
+     interfaces.json / README.md
 用法：
   python tvbox/crawl.py --out tvbox [--workers 10]
 在 GitHub Actions 里每天定时跑，改动自动提交到仓库，直链即自动更新。
@@ -32,6 +33,12 @@ import requests
 SOURCE_A = "https://526900.pages.dev/p/Sb3e96Z0"
 SOURCE_B = "https://tvbox.shenzjd.com/"
 SOURCE_NAMES = {"A": SOURCE_A, "B": SOURCE_B}
+
+# 手动追加的接口（不属于上面两个站，用户单独给的地址，每天跟着一起测活更新）
+# 类别“开车涩涩”：爱豆直播的 M3U（yl.sb110.kdns.fr 是用户自己的 Worker 输出）
+EXTRA_ADULT = [
+    {"name": "爱豆直播", "url": "https://yl.sb110.kdns.fr/live.m3u"},
+]
 
 # 镜像优先级：原始线路 > 分流策略 > 全球策略 > 备份三线 > 备份四线 > 备份五线
 MIRROR_ORDER = ["original", "fenliu", "quanqiu", "backup3", "backup4", "backup5"]
@@ -154,12 +161,13 @@ def _clean_text(raw: bytes) -> str:
 
 
 def _m3u_channel_count(text: str) -> int:
-    """M3U 里不同的频道地址数（去重）。只有广告/失效条目的过期订阅只有 1 个地址。"""
+    """M3U 里不同的频道地址数（按完整地址去重，不过滤查询参数：
+    有的点播代理形如 /play?id=123，查询参数就是节目的身份，去掉会误判成 1 个）。"""
     urls = set()
     for line in text.splitlines():
         line = line.strip()
         if line.startswith("http://") or line.startswith("https://"):
-            urls.add(line.split("?")[0])
+            urls.add(line)
     return len(urls)
 
 
@@ -355,15 +363,22 @@ def main():
 
     vod_out = process(vod, "点播", args.workers)
     live_out = process(live, "直播", args.workers)
+    adult_entries = [{"name": e["name"], "fields": {"url": e["url"]},
+                      "source": "manual"} for e in EXTRA_ADULT]
+    adult_out = process(adult_entries, "开车涩涩", args.workers)
 
     vod_alive = sum(1 for x in vod_out if x["primary_status"] == "alive")
     vod_unver = sum(1 for x in vod_out if x["primary_status"] == "unverified_primary")
     live_alive = sum(1 for x in live_out if x["primary_status"] == "alive")
     live_unver = sum(1 for x in live_out if x["primary_status"] == "unverified_primary")
+    adult_alive = sum(1 for x in adult_out if x["primary_status"] == "alive")
+    adult_unver = sum(1 for x in adult_out if x["primary_status"] == "unverified_primary")
     print(f"点播：{vod_alive} 可用，{vod_unver} 未验证，"
           f"{len(vod_out) - vod_alive - vod_unver} 全死")
     print(f"直播：{live_alive} 可用，{live_unver} 未验证，"
           f"{len(live_out) - live_alive - live_unver} 全死")
+    print(f"开车涩涩：{adult_alive} 可用，{adult_unver} 未验证，"
+          f"{len(adult_out) - adult_alive - adult_unver} 全死")
 
     os.makedirs(args.out, exist_ok=True)
 
@@ -381,6 +396,7 @@ def main():
 
     write_txt(os.path.join(args.out, "vod.txt"), vod_out, "TVBox 点播接口")
     write_txt(os.path.join(args.out, "live.txt"), live_out, "TVBox 直播接口")
+    write_txt(os.path.join(args.out, "adult.txt"), adult_out, "TVBox 开车涩涩")
 
     data = {
         "sources": [SOURCE_A, SOURCE_B],
@@ -390,6 +406,8 @@ def main():
             "vod_unverified": vod_unver,
             "live_total": len(live_out), "live_alive": live_alive,
             "live_unverified": live_unver,
+            "adult_total": len(adult_out), "adult_alive": adult_alive,
+            "adult_unverified": adult_unver,
             "dedup_skipped": vod_skip + live_skip,
             "added_from_b": vod_add + live_add,
         },
@@ -402,14 +420,20 @@ def main():
                                      m["detail"], m["source"]]
                                     for m in x["mirrors"]]}
                  for x in live_out],
+        "adult": [{**x, "mirrors": [[m["label"], m["url"], m["status"],
+                                      m["detail"], m["source"]]
+                                     for m in x["mirrors"]]}
+                  for x in adult_out],
     }
     with open(os.path.join(args.out, "interfaces.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     dead_vod = [x["name"] for x in vod_out if x["primary_status"] == "dead"]
     dead_live = [x["name"] for x in live_out if x["primary_status"] == "dead"]
+    dead_adult = [x["name"] for x in adult_out if x["primary_status"] == "dead"]
     unver_vod = [x["name"] for x in vod_out if x["primary_status"] == "unverified_primary"]
     unver_live = [x["name"] for x in live_out if x["primary_status"] == "unverified_primary"]
+    unver_adult = [x["name"] for x in adult_out if x["primary_status"] == "unverified_primary"]
     new_from_b = ([x["name"] for x in vod_out if "B" in x["sources"] and x["name"] not in
                    {e["name"] for e in a_vod}] +
                   [x["name"] for x in live_out if "B" in x["sources"] and x["name"] not in
@@ -427,17 +451,19 @@ def main():
 - **更新时间：{stamp}**
 - **点播接口：{len(vod_out)} 个**（测活通过 {vod_alive} 个，未验证 {vod_unver} 个）
 - **直播接口：{len(live_out)} 个**（测活通过 {live_alive} 个，未验证 {live_unver} 个）
+- **开车涩涩：{len(adult_out)} 个**（测活通过 {adult_alive} 个，未验证 {adult_unver} 个）
 - **本次 B 站新追加：{len(new_from_b)} 个**（地址在 A 站没有的）
 
 ## 直链（直接粘贴到 TVBox 里用）
 
 - 点播：`https://raw.githubusercontent.com/mykingback/home/main/tvbox/vod.txt`
 - 直播：`https://raw.githubusercontent.com/mykingback/home/main/tvbox/live.txt`
+- 开车涩涩：`https://raw.githubusercontent.com/mykingback/home/main/tvbox/adult.txt`
 - 完整数据（含全部镜像地址与测活状态）：`https://raw.githubusercontent.com/mykingback/home/main/tvbox/interfaces.json`
 
 ## 文件说明
 
-- `vod.txt` / `live.txt`：`名称,接口地址`，每行一个接口，首选地址是测活通过的镜像
+- `vod.txt` / `live.txt` / `adult.txt`：`名称,接口地址`，每行一个接口，首选地址是测活通过的镜像
 - `interfaces.json`：每个接口的全部镜像地址、测活状态、来源站、备注
 
 ## 注意
@@ -451,13 +477,15 @@ def main():
 - B 站新追加的接口：{("、".join(new_from_b) if new_from_b else "无")}
 - 全死的点播接口：{("、".join(dead_vod) if dead_vod else "无")}
 - 全死的直播接口：{("、".join(dead_live) if dead_live else "无")}
+- 全死的开车涩涩：{("、".join(dead_adult) if dead_adult else "无")}
 - 未验证的点播接口：{("、".join(unver_vod) if unver_vod else "无")}
 - 未验证的直播接口：{("、".join(unver_live) if unver_live else "无")}
+- 未验证的开车涩涩：{("、".join(unver_adult) if unver_adult else "无")}
 """
     with open(os.path.join(args.out, "README.md"), "w", encoding="utf-8") as f:
         f.write(readme)
 
-    print(f"写出：{args.out}/vod.txt、live.txt、interfaces.json、README.md")
+    print(f"写出：{args.out}/vod.txt、live.txt、adult.txt、interfaces.json、README.md")
     print(json.dumps(data["counts"], ensure_ascii=False))
     return 0
 
