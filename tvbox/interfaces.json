@@ -1,0 +1,2168 @@
+{
+  "source": "https://526900.pages.dev/p/Sb3e96Z0",
+  "updated_at": "2026-11-21 09:39:50",
+  "counts": {
+    "vod_total": 40,
+    "vod_alive": 38,
+    "vod_unverified": 0,
+    "live_total": 7,
+    "live_alive": 0,
+    "live_unverified": 0
+  },
+  "vod": [
+    {
+      "name": "嗷呜",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/嗷呜.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://www.英格里希嗷呜.top/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/嗷呜.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/嗷呜.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/嗷呜.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/嗷呜.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/嗷呜.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        }
+      ]
+    },
+    {
+      "name": "X4菠菜园",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/5/x4.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://0.wudaozhe.net/5/x4.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 52，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/X4菠菜园.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/X4菠菜园.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/X4菠菜园.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/X4菠菜园.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/X4菠菜园.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "宝盒",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/宝盒.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://宝盒接口.top",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/宝盒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 77，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/宝盒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 77，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/宝盒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 77，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/宝盒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 77，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/宝盒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 77，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "嗷呜3线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/嗷呜3线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://itv666.cc/aowu/config.webp",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/嗷呜3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/嗷呜3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/嗷呜3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/嗷呜3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/嗷呜3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        }
+      ]
+    },
+    {
+      "name": "嗨哥魔改",
+      "category": "点播",
+      "primary": "https://api.hgyx.vip/hgyx.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://api.hgyx.vip/hgyx.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/嗨哥魔改.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/嗨哥魔改.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/嗨哥魔改.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/嗨哥魔改.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/嗨哥魔改.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        }
+      ]
+    },
+    {
+      "name": "X4菠菜pro",
+      "category": "点播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://0.wudaozhe.net/5/x4pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/X4菠菜pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/X4菠菜pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/X4菠菜pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/X4菠菜pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/X4菠菜pro.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "X4少儿频道",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/5/tv少儿.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://0.wudaozhe.net/5/tv少儿.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 25，lives 0）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/X4少儿频道.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/X4少儿频道.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/X4少儿频道.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/X4少儿频道.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/X4少儿频道.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "饭太硬",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/饭太硬.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://www.饭太硬.net/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/饭太硬.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/饭太硬.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/饭太硬.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/饭太硬.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/饭太硬.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "摸鱼",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/摸鱼.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://我不是.摸鱼儿.top",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/摸鱼.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/摸鱼.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/摸鱼.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/摸鱼.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/摸鱼.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "王二小",
+      "category": "点播",
+      "primary": "https://9280.kstore.vip/aiwex.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://9280.kstore.vip/aiwex.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/王二小.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/王二小.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/王二小.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/王二小.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/王二小.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 2）"
+        }
+      ]
+    },
+    {
+      "name": "潇洒",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/潇洒.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://9877.kstore.space/sun.json",
+          "status": "dead",
+          "detail": "HTTP 403"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/潇洒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 119，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/潇洒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 119，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/潇洒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 119，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/潇洒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 119，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/潇洒.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 119，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "幸福年年",
+      "category": "点播",
+      "primary": "http://150.158.52.248/tgyg/bbm.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://150.158.52.248/tgyg/bbm.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/幸福年年.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/幸福年年.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/幸福年年.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/幸福年年.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/幸福年年.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 123，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "饭太硬2线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/饭太硬2线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://www.饭太硬.cc/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/饭太硬2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/饭太硬2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/饭太硬2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/饭太硬2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/饭太硬2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "饭太硬3线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/饭太硬3线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://www.饭太硬.art/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/饭太硬3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/饭太硬3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/饭太硬3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/饭太硬3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/饭太硬3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "饭太硬5线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/饭太硬5线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://fty.888484.xyz/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/饭太硬5线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/饭太硬5线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/饭太硬5线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/饭太硬5线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/饭太硬5线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "饭太硬6线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/饭太硬6线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://fty.333232.xyz/tv",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/饭太硬6线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/饭太硬6线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/饭太硬6线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/饭太硬6线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/饭太硬6线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 49，lives 5）"
+        }
+      ]
+    },
+    {
+      "name": "嗷呜2线",
+      "category": "点播",
+      "primary": "https://9763.kstore.vip/aowu.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://9763.kstore.vip/aowu.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/嗷呜2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/嗷呜2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/嗷呜2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/嗷呜2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/嗷呜2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 83，lives 7）"
+        }
+      ]
+    },
+    {
+      "name": "南风",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/南风.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://ghproxy.monkeyray.net/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/南风.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/南风.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/南风.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/南风.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/南风.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "南风2线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/南风2线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/南风2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/南风2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/南风2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/南风2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/南风2线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "小马",
+      "category": "点播",
+      "primary": "https://szyyds.cn/tv/x.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://szyyds.cn/tv/x.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/小马.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/小马.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/小马.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/小马.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/小马.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 62，lives 10）"
+        }
+      ]
+    },
+    {
+      "name": "周J",
+      "category": "点播",
+      "primary": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/box",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/周J.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/周J.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/周J.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/周J.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/周J.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 4）"
+        }
+      ]
+    },
+    {
+      "name": "菜妮丝",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/菜妮丝.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://tv.xn--yhqu5zs87a.top",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/菜妮丝.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 37，lives 0）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/菜妮丝.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 37，lives 0）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/菜妮丝.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 37，lives 0）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/菜妮丝.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 37，lives 0）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/菜妮丝.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 37，lives 0）"
+        }
+      ]
+    },
+    {
+      "name": "心魔",
+      "category": "点播",
+      "primary": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/心魔.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/心魔.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/心魔.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/心魔.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/心魔.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 151，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "俊宇",
+      "category": "点播",
+      "primary": "http://home.jundie.top:81/top98.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://home.jundie.top:81/top98.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/俊宇.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/俊宇.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/俊宇.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/俊宇.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/俊宇.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 24，lives 2）"
+        }
+      ]
+    },
+    {
+      "name": "clun",
+      "category": "点播",
+      "primary": "https://clun.top/box.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://clun.top/box.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/clun.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/clun.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/clun.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/clun.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/clun.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 101，lives 17）"
+        }
+      ]
+    },
+    {
+      "name": "东篱",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/东篱.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://chigua.eu.org",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/东篱.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 12）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/东篱.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 12）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/东篱.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 12）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/东篱.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 12）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/东篱.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 93，lives 12）"
+        }
+      ]
+    },
+    {
+      "name": "聚玩",
+      "category": "点播",
+      "primary": "http://xhztv.top/xhz",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://xhztv.top/xhz",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/聚玩.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/聚玩.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/聚玩.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/聚玩.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/聚玩.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 54，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "哈吉米",
+      "category": "点播",
+      "primary": "https://17264.kstore.space/哈基米.png",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://17264.kstore.space/哈基米.png",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/哈吉米.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/哈吉米.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/哈吉米.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/哈吉米.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/哈吉米.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 174，lives 11）"
+        }
+      ]
+    },
+    {
+      "name": "动漫",
+      "category": "点播",
+      "primary": "https://www.yingm.cc/dm/dm.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://www.yingm.cc/dm/dm.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/动漫.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/动漫.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/动漫.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/动漫.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/动漫.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 27，lives 0）"
+        }
+      ]
+    },
+    {
+      "name": "天神",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/天神.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/IY-CPU/IY/main/天神IY.png",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/天神.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 0）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/天神.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 0）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/天神.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 0）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/天神.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 0）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/天神.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 100，lives 0）"
+        }
+      ]
+    },
+    {
+      "name": "星微Vip",
+      "category": "点播",
+      "primary": "https://7337.kstore.vip/xw/测试勿传",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://7337.kstore.vip/xw/测试勿传",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/星微Vip.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/星微Vip.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/星微Vip.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/星微Vip.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/星微Vip.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 66，lives 6）"
+        }
+      ]
+    },
+    {
+      "name": "传说",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/传说.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://tjf1100.serv00.net",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/传说.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/传说.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/传说.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/传说.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/传说.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        }
+      ]
+    },
+    {
+      "name": "夏夏影视",
+      "category": "点播",
+      "primary": "https://11405.kstore.space/xiaye/qk4k.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://11405.kstore.space/xiaye/qk4k.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/夏夏影视.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/夏夏影视.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/夏夏影视.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/夏夏影视.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/夏夏影视.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 43，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "摸鱼3线",
+      "category": "点播",
+      "primary": "https://0.wudaozhe.net/tvbox/摸鱼3线.json",
+      "primary_label": "分流策略",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://我不是.摸鱼儿.top",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/摸鱼3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/摸鱼3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/摸鱼3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/摸鱼3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/摸鱼3线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 109，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "X4更新专用接口",
+      "category": "点播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://0.wudaozhe.net/0/666",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/X4更新专用接口.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/X4更新专用接口.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/X4更新专用接口.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/X4更新专用接口.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/X4更新专用接口.json",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "健康家用",
+      "category": "点播",
+      "primary": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/健康家用.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/健康家用.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/健康家用.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/健康家用.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/健康家用.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 64，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "FongMI线路",
+      "category": "点播",
+      "primary": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/FongMI线路.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/FongMI线路.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/FongMI线路.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/FongMI线路.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/FongMI线路.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 33，lives 0）"
+        }
+      ]
+    },
+    {
+      "name": "高天流云js",
+      "category": "点播",
+      "primary": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/高天流云js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/高天流云js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/高天流云js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/高天流云js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/高天流云js.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 298，lives 2）"
+        }
+      ]
+    },
+    {
+      "name": "凯弟1线",
+      "category": "点播",
+      "primary": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/凯弟1线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/凯弟1线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/凯弟1线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/凯弟1线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/凯弟1线.json",
+          "status": "alive",
+          "detail": "TVBox 配置（sites 63，lives 1）"
+        }
+      ]
+    },
+    {
+      "name": "分享者",
+      "category": "点播",
+      "primary": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+      "primary_label": "原始线路",
+      "primary_status": "alive",
+      "mirrors": [
+        {
+          "key": "original",
+          "label": "原始线路",
+          "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "fenliu",
+          "label": "分流策略",
+          "url": "https://0.wudaozhe.net/tvbox/分享者.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "quanqiu",
+          "label": "全球策略",
+          "url": "https://1.wudaozhe.net/tvbox/分享者.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup3",
+          "label": "备份三线",
+          "url": "https://0.12yue.de5.net/tvbox/分享者.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup4",
+          "label": "备份四线",
+          "url": "https://0.cdz.qzz.io/tvbox/分享者.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        },
+        {
+          "key": "backup5",
+          "label": "备份五线",
+          "url": "https://0.wdzb.eu.cc/tvbox/分享者.json",
+          "status": "alive",
+          "detail": "JSON 配置（截断读取）"
+        }
+      ]
+    }
+  ],
+  "live": [
+    {
+      "name": "山东电信",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LlNDBR0AAwweAwkOVFNLAwkGBgAI",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "北京腾讯",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LlNAAh0DAwoeBAYWSFZDDAIDAgw",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "浙江电信",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LlRCGAIHAhYBAgAWSFFLDAIDAgw",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "上海电信1",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LldKGAAJHwoBHAMLTFhDBAAFBA",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "上海电信2",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LldKGAAJHw8CHAAMSlhDBAAFBA",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "辽宁联通",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LlNDBR0DAwweAwENVFNGBAkAAwsE",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    },
+    {
+      "name": "广东电信",
+      "category": "直播",
+      "primary": null,
+      "primary_label": null,
+      "primary_status": "dead",
+      "mirrors": [
+        {
+          "key": "url",
+          "label": "唯一地址",
+          "url": "https://eastscreen.tv/iptvlist.php?token=LlNCAB0EAxYBAwgWS1dLDAIDAgw",
+          "status": "dead",
+          "detail": "不是有效 JSON"
+        }
+      ]
+    }
+  ]
+}
