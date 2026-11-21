@@ -1,7 +1,7 @@
 # TVBox 直播接口
 # 来源：https://526900.pages.dev/p/Sb3e96Z0 / https://tvbox.shenzjd.com/
-# 更新时间：2026-11-21 15:05:43（每天自动更新）
-# 本次可用：104 个（两站合计 117 个，全死的没列进来）
+# 更新时间：2026-11-21 15:37:40（每天自动更新）
+# 本次可用：105 个（两站合计 117 个，全死的没列进来）
 # 格式：名称,接口地址（直接粘贴到 TVBox 里用）
 
 山东电信,https://eastscreen.tv/iptvlist.php?token=LlNDBR0AAwweAwkOVFNLAwkGBgAI
@@ -35,14 +35,12 @@ suxuang1线,https://gh-proxy.org/https://raw.githubusercontent.com/suxuang/myIPT
 锋云直播,https://gh-proxy.org/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/suale.txt
 ipv63,https://gh-proxy.com/raw.githubusercontent.com/lubin776/tvbox/refs/heads/main/xuexiji/lib/ipv6.m3u
 华视TV直播,https://445569.pages.dev/https://raw.githubusercontent.com/swhtv/111/refs/heads/main/华视box华视大全swtv
-无界台标预览版,https://www.xn--rgv465a.top/live/tvlogo.txt（未验证）
 APTV,https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u
 TvLive,https://live.zbds.top/tv/iptv4.txt
 移动,https://gh-proxy.com/raw.githubusercontent.com/zhoujck/config/main/ext/移动
 易发TV直播,https://445569.pages.dev/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
 gambiarras,https://raw.githubusercontent.com/gambiarras/legal-iptv/refs/heads/main/playlist.m3u
 yuan,http://wangziduoqing.com/yuan/zb.txt
-无界UpdatedDaily版,https://www.xn--rgv465a.top/live/Daily.txt（未验证）
 电视直播,http://gh-proxy.org/raw.githubusercontent.com/Supprise0901/TVBox_live/main/live.txt
 薄荷直播,https://gh-proxy.org/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/bhmb.m3u
 mlzlzj,https://raw.githubusercontent.com/mlzlzj/TV/main/output/result.m3u
@@ -54,6 +52,7 @@ Ipv4,https://gh-proxy.com/raw.githubusercontent.com/lubin776/tvbox/refs/heads/ma
 优选,https://gh-proxy.com/https:/raw.githubusercontent.com/zhoujck/config/main/ext/live.txt
 全球直播,https://gh-proxy.org/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/%E5%85%A8%E7%90%83%E7%9B%B4%E6%92%AD.m3u
 Kimentanm4线,https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
+PPV体育赛事直播.php,https://jsnzkpg4.pages.dev/https://www.korice.eu.org/ppv_m3u.php
 很少,https://mpimg.cn/down.php/fa04b02ffac54ac877f5250d3d70e494.txt
 Mytv,https://cdn.qd.je/live.m3u
 live1线,http://xhztv.top/xhz/live.txt
@@ -96,6 +95,7 @@ develop2021线,https://ztha.top/TVBox/lib/interface.txt
 裤佬酷狗直播,https://kugou.445569.xyz/live.m3u
 奥斯卡,https://gitee.com/OscarWilde/itv/raw/master/tv.txt
 裤佬虎牙直播,https://yahu.445569.xyz/live.m3u
+港奥台国际,http://tv123.vvvv.ee/tv.m3u
 虎牙一起看2线,https://ztha.top/TVBox/lib/huyayqk.m3u
 裤佬快手直播,https://kuaishou.445569.xyz/list.m3u
 综合直播3线,https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit
@@ -108,3 +108,4 @@ Guovin,https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 cluntoptest,https://clun.top/lib/iptv_test.m3u
 黄蚂蚁先锋推流源,http://ge.html-5.me//ii/黄蚂蚁先锋推流源.txt
 澜露TV,http://zoto.3d.tc/i/i/hulanlu.txt
+咪咕TV直播.php,https://eastscreen.tv/iptvlist.php?token=N1pcBwAGHwkCAx8OTFhABgEFAA（未验证）
