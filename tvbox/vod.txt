@@ -1,6 +1,6 @@
 # TVBox 点播接口
 # 来源：https://526900.pages.dev/p/Sb3e96Z0 / https://tvbox.shenzjd.com/
-# 更新时间：2026-11-26 06:54:19（每天自动更新）
+# 更新时间：2026-11-27 06:46:39（每天自动更新）
 # 本次可用：55 个（两站合计 58 个，全死的没列进来）
 # 格式：名称,接口地址（直接粘贴到 TVBox 里用）
 
@@ -42,20 +42,20 @@ FongMI线路,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/ma
 高天流云js,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 凯弟1线,https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
 分享者,http://hucongrong.web3v.work/风水/fxz/fxz.json
-小米,https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json
 软件小哥,http://47.96.82.41:5188/svip/svip.json
-王二小7线,https://9280.kstore.vip/wex.json
+小米,https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json
 真六,https://cccimg.com/down.php/7d1f30263b3f2bf3deda2d7faeef4844.zhen6
 王二小6线,https://9280.kstore.vip/newwex.json
+王二小7线,https://9280.kstore.vip/wex.json
 挺好,https://ztha.top/TVBox/thdjk.json
-宝盒2线,https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json
+ray,https://raw.githubusercontent.com/dxawi/0/main/0.json
 高天流云,https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 香雅情,https://play.iptv365.org/香雅情/api.json
-ray,https://raw.githubusercontent.com/dxawi/0/main/0.json
-老张,https://zhangqun1818.serv00.net/zq/api.json
-高天流云_XYQ,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
-王二小2线,https://9280.kstore.space/aiwex.json
 凯弟3线,https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json
+宝盒2线,https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json
+高天流云_XYQ,https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
+老张,https://zhangqun1818.serv00.net/zq/api.json
 少儿频道,https://0.12yue.de5.net/5/tv少儿.json
 菠菜园,https://0.12yue.de5.net/5/x4.json
+王二小2线,https://9280.kstore.space/aiwex.json
 刺桐,https://www.cttv.vip/ys/json/ctys.json
